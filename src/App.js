@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import StarRating from "./StarRating";
 import { useMovies } from "./useMovies";
 import { useKey } from "./useKey";
+import Your_Key from "./Your_key";
 
-const KEY = "78554059";
+const KEY = Your_key;
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
